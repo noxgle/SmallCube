@@ -11,7 +11,7 @@ Flows:
 ![Screenshot](node-red/Node-RED.png)
 
 Dashboard Home:
-![Screenshot](node-red/Node-RED Dashboard.png)
+![Screenshot](node-red/Node-RED_Dashboard.png)
 
 
 INSTALLATION Small Cube
