@@ -1,0 +1,10 @@
+markupsafe==2.0.1
+uwsgi
+schedule
+Flask
+flask_httpauth
+requests
+RPi.GPIO
+Werkzeug
+
+#w1thermsensor

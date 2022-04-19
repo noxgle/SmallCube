@@ -1,0 +1,2 @@
+#!/bin/bash
+/bin/echo '1' > /tmp/simple.txt

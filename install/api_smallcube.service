@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve API for SmallCube
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/opt/SmallCube
+Environment="PATH=/opt/SmallCube/venv/bin"
+ExecStart=/opt/SmallCube/venv/bin/uwsgi --ini install/api_smallcube.ini
+
+[Install]
+WantedBy=multi-user.target

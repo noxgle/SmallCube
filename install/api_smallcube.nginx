@@ -1,0 +1,9 @@
+server {
+    listen 5080 default_server;
+    #server_name your_domain www.your_domain;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/opt/SmallCube/api_smallcube.sock;
+    }
+}
