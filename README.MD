@@ -28,7 +28,7 @@ Steps:
 6. git clone https://github.com/noxgle/smallcube.git
 7. ./createVirtEnv.bash
 8. cd install && ./install_service.bash
-9. cat conn_app.txt
+9. cd ../ && cat conn_app.txt
 
 Test if all is working: venv/bin/python api_test.py
 
