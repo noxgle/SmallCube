@@ -10,7 +10,7 @@ import os
 
 base_path = os.path.dirname(os.path.abspath(__file__))
 
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.WARNING,
                     # filename=base_path + '/static/logs/' + os.path.basename(__file__) + '.log',
                     filename=os.path.basename(__file__) + '.log',
                     format="{asctime} [{levelname:8}] {process} {thread} {module}: {message}",
