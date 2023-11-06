@@ -62,4 +62,4 @@ plugin is named "example" and you can use it as a skeleton.
 HowTo
 1. Reset configuration to default? In Small Cube folder delete file called db, then restart service or pi. 
 
-Shorten links with: https://lvk.pl
+Shorten link with: https://lvk.pl
